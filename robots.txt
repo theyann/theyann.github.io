@@ -1,0 +1,7 @@
+# robotstxt.org/
+
+User-agent: *
+Disalow: /jardibox/
+Disalow: /cullen/
+Disalow: /rgb/
+Disalow: /tempimages/

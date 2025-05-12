@@ -90,7 +90,12 @@ body {
 }
 
 h1 {
-  margin-top: 30px;  
+  margin-top: 30px;
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 32px;
+  border-left: 3px solid #ffcc00;
+  padding-left: 10px;
 }
 
 hr {
@@ -98,4 +103,59 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #eee;
+}
+
+.journey {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.journey h2 {
+    color: #66ccff;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 3px solid #66ccff;
+    padding-left: 10px;
+}
+
+.journey p {
+    color: #e5e5e5;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.services {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.services h2 {
+    color: #66ff99;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 3px solid #66ff99;
+    padding-left: 10px;
+}
+
+.services p {
+    color: #e5e5e5;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.services ul {
+    margin-bottom: 15px;
+}
+
+footer {
+    color: #e5e5e5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
 }

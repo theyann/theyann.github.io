@@ -151,6 +151,33 @@ hr {
     margin-bottom: 15px;
 }
 
+.podcast-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.podcast-section h3 {
+    color: #ff9966;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border-left: 3px solid #ff9966;
+    padding-left: 10px;
+}
+
+.podcast-section p {
+    color: #e5e5e5;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.podcast-section audio {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 footer {
     color: #e5e5e5;
     text-align: center;

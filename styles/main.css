@@ -80,7 +80,8 @@ body {
 }
 
 .logo {
-  width: 600px;
+  max-width: 100%;
+  height: auto;
 }
 
 .details {
@@ -185,4 +186,59 @@ footer {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.5;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .journey h2, .services h2 {
+        font-size: 22px;
+    }
+
+    .content li {
+        font-size: medium;
+    }
+
+    .details {
+        font-size: large;
+        text-align: center;
+    }
+
+    .podcast-section h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .journey h2, .services h2 {
+        font-size: 20px;
+    }
+
+    .content li {
+        font-size: medium;
+    }
+
+    .details {
+        font-size: medium;
+    }
+
+    .podcast-section h3 {
+        font-size: 18px;
+    }
+
+    .logo {
+        max-width: 90%;
+    }
 }
